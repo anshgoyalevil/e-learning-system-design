@@ -3,7 +3,11 @@
 This is a Complete E-Learning System where the users can create their account and enroll in the courses. The courses contain the live chat feature where the students can learn while chatting with their fellow mates.
 
 Highlights:
-- The web app contains 
+- The web app contains live chat feature with seprate room for each course.
+- It contains low latency database connections and CRUD queries for better performance.
+- The Web App is completely mobile responsive.
+- It contains state of the art User Authentication System to handle user data and encrypt the passwords using the internal bcrypt hashing and salting methodology.
+- Google OAuth2.0 Authentication Integrated.
 
 ## Frontend Technologies Used:
 - Socketio
@@ -38,3 +42,4 @@ Following Node Modules are used:
 - socketio - socketio plugin for live chat system
 - redis - for database cache
 
+Feel free to fork it, star it, or send pull requests.
