@@ -9,7 +9,7 @@ Highlights:
 - It contains state of the art User Authentication System to handle user data and encrypt the passwords using the internal bcrypt hashing and salting methodology.
 - Google OAuth2.0 Authentication Integrated.
 
-## Frontend Technologies Used:
+## Frontend Technologies Used:-
 - Socketio
 - HTML
 - CSS
