@@ -1,13 +1,12 @@
 # E-Learning System
 
-This is a Complete E-Learning System where the users can create their account and enroll in the courses. The courses contain the live chat feature where the students can learn while chatting with their fellow mates.
+Beautiful UI & UX E-Learning App where Students Can Have Live Chat with Other Learners While Watching Educational Video Courses. With Deep Learning Based Assignment Proofing System for Instructors.
 
 Highlights:
-- The web app contains live chat feature with seprate room for each course.
-- It contains low latency database connections and CRUD queries for better performance.
-- The Web App is completely mobile responsive.
-- It contains state of the art User Authentication System to handle user data and encrypt the passwords using the internal bcrypt hashing and salting methodology.
-- Google OAuth2.0 Authentication Integrated.
+- The web app contains a live chat feature with custom room for each course. This would help students watch the recorded lectures while chatting with their friends.
+- A deep learning-based image similarity processing API is implemented to check if two assignments submitted by different students are similar or not.
+- The web app contains a note taking feature, with which, the students can take notes while learning the course.
+- The app is implemented with industry best password protection strategy with multiple salt rounds and hashing function implemented internally using bcrypt. It also contains Google OAuth2.0 Authentication Implementation for faster and secure logins.
 
 ## Frontend Technologies Used:-
 - Socketio
@@ -43,3 +42,6 @@ Following Node Modules are used:
 - redis - for database cache
 
 Feel free to fork it, star it, or send pull requests.
+
+Some Screenshots of the Web App:
+
