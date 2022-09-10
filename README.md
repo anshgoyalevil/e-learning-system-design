@@ -1,12 +1,13 @@
 # E-Learning System
 
-Beautiful UI & UX E-Learning App where Students Can Have Live Chat with Other Learners While Watching Educational Video Courses. With Deep Learning Based Assignment Proofing System for Instructors.
+This is a Complete E-Learning System where the users can create their account and enroll in the courses. The courses contain the live chat feature where the students can learn while chatting with their fellow mates.
 
 Highlights:
-- The web app contains a live chat feature with custom room for each course. This would help students watch the recorded lectures while chatting with their friends.
-- A deep learning-based image similarity processing API is implemented to check if two assignments submitted by different students are similar or not.
-- The web app contains a note taking feature, with which, the students can take notes while learning the course.
-- The app is implemented with industry best password protection strategy with multiple salt rounds and hashing function implemented internally using bcrypt. It also contains Google OAuth2.0 Authentication Implementation for faster and secure logins.
+- The web app contains live chat feature with seprate room for each course.
+- It contains low latency database connections and CRUD queries for better performance.
+- The Web App is completely mobile responsive.
+- It contains state of the art User Authentication System to handle user data and encrypt the passwords using the internal bcrypt hashing and salting methodology.
+- Google OAuth2.0 Authentication Integrated.
 
 ## Frontend Technologies Used:-
 - Socketio
@@ -41,32 +42,4 @@ Following Node Modules are used:
 - socketio - socketio plugin for live chat system
 - redis - for database cache
 
-## How to test the app?
-
-Download the project or git clone it into your local machine.
-
-Inside the Project Folder, Create a file named .env and assign the following values in it:
-```
-SECRET=anyrandomstring
-CLIENT_ID=google auth 2.0 cliend id
-CLIENT_SECRET=google auth 2.0 client secret
-API_KEY=api key from deepai.com
-DB_URI=mongodb database uri
-```
-
-Now, inside the project terminal, run:
-```
-npm install
-```
-
-Congrats, you are ready to test this web application into your local machine.
-
 Feel free to fork it, star it, or send pull requests.
-
-Some Screenshots of the Web App:
-
-![a](https://github.com/anshgoyalevil/e-learning-system-design/blob/master/public/a.PNG)
-![b](https://github.com/anshgoyalevil/e-learning-system-design/blob/master/public/b.PNG)
-![c](https://github.com/anshgoyalevil/e-learning-system-design/blob/master/public/c.PNG)
-![d](https://github.com/anshgoyalevil/e-learning-system-design/blob/master/public/d.PNG)
-![e](https://github.com/anshgoyalevil/e-learning-system-design/blob/master/public/e.PNG)
