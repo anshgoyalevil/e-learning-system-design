@@ -18,11 +18,11 @@ Highlights:
 - Tailwind
 - Font Awesome
 
-## Backend Technologies Used:
+## Backend Technologies Used:-
 - Node.JS
 - Socketio
 
-## Database Technology Used:
+## Database Technology Used:-
 - MongoDB
 - Redis
 
