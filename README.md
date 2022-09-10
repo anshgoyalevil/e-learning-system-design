@@ -41,6 +41,26 @@ Following Node Modules are used:
 - socketio - socketio plugin for live chat system
 - redis - for database cache
 
+## How to test the app?
+
+Download the project or git clone it into your local machine.
+
+Inside the Project Folder, Create a file named .env and assign the following values in it:
+```
+SECRET=anyrandomstring
+CLIENT_ID=google auth 2.0 cliend id
+CLIENT_SECRET=google auth 2.0 client secret
+API_KEY=api key from deepai.com
+DB_URI=mongodb database uri
+```
+
+Now, inside the project terminal, run:
+```
+npm install
+```
+
+Congrats, you are ready to test this web application into your local machine.
+
 Feel free to fork it, star it, or send pull requests.
 
 Some Screenshots of the Web App:
